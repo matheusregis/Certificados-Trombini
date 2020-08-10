@@ -1,0 +1,24 @@
+{
+  "name": "certificados-trombini",
+  "version": "1.0.0",
+  "description": "Certificados-Trombini",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": "git+https://github.com/matheusregis/Certificados-Trombini.git",
+  "author": "Matheus Régis <matheustrai@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matheusregis/Certificados-Trombini/issues"
+  },
+  "homepage": "https://github.com/matheusregis/Certificados-Trombini#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "nodemon": "^2.0.4",
+    "sequelize": "^6.3.3",
+    "sequelize-cli": "^6.2.0"
+  }
+}
